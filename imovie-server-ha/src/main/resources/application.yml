@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: imovie-server-ha  # 用于指定注册到Eureka server上的应用名称
+---
+spring:
+  profiles: peer1 #指定profile为peer1
+server:
+  port: 8671
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://peer2:8671/eureka/ #将自己注册到peer2上
+  instance:
+    hostname: peer1
+--- # 使用(---)可以分段
+spring:
+  profiles: peer2 #指定profile为peer2
+server:
+  port: 8672
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer2:8671/eureka/ #将自己注册到peer1上
+  instance:
+    hostname: peer2
+
+

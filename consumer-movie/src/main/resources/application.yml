@@ -2,8 +2,13 @@ server:
   port: 8010
 # Configure this Discovery Server
 eureka:
+  client:
+    registerWithEureka: true
+    service-url:
+      defaultZone: http://localhost:8671/eureka/
   instance:
     hostname: localhost
-  client:  # 只注册服务端
-    registerWithEureka: false
-    fetchRegistry: false
+    prefer-ip-address: true
+spring:
+  application:
+    name: consumer-movie
