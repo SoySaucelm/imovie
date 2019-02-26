@@ -1,6 +1,12 @@
 spring:
   application:
     name: imovie-server-ha  # 用于指定注册到Eureka server上的应用名称
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root
 ---
 spring:
   profiles: peer1 #指定profile为peer1
@@ -8,7 +14,6 @@ server:
   port: 8671
 eureka:
   client:
-    register-with-eureka: false
     service-url:
       defaultZone: http://peer2:8671/eureka/ #将自己注册到peer2上
   instance:

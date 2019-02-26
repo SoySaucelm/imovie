@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/imovie-user/pom.xml" />
         <option value="$PROJECT_DIR$/imovie-server/pom.xml" />
         <option value="$PROJECT_DIR$/imovie-server-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/imovie-server-authenticating/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,7 +5,7 @@ eureka:
   client:
     registerWithEureka: true
     service-url:
-      defaultZone: http://localhost:8671/eureka/
+      defaultZone: http://root:root@peer1:8671/eureka/,http://root:root@peer2:8672/eureka/
   instance:
     hostname: localhost
     prefer-ip-address: true

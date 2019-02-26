@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5046951b-67b9-483a-b1b4-a623974c1c40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/consumer-movie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-movie/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-movie/src/main/java/com/imovie/cloud/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-movie/src/main/java/com/imovie/cloud/controller/MovieController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer-movie/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-movie/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imovie-user/src/main/java/com/imovie/cloud/ImovieUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/imovie-user/src/main/java/com/imovie/cloud/ImovieUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-movie/src/test/java/com/imovie/cloud/ConsumerMovieApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-movie/src/test/java/com/imovie/cloud/ConsumerMovieApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imovie-server-ha/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imovie-server-ha/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imovie-server-ha/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/imovie-server-ha/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imovie-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/imovie-user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/consumer-movie/target/" />
     <ignored path="$PROJECT_DIR$/imovie-user/target/" />
     <ignored path="$PROJECT_DIR$/imovie-server/target/" />
     <ignored path="$PROJECT_DIR$/imovie-server-ha/target/" />
+    <ignored path="$PROJECT_DIR$/imovie-server-authenticating/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,136 +29,157 @@
     <session id="683605316">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="14" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="4" />
+          <entry key="java" value="15" />
           <entry key="md" value="3" />
-          <entry key="xml" value="4" />
-          <entry key="yml" value="6" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="8" />
+          <entry key="yml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="15" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="4" />
-          <entry key="YAML" value="6" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="8" />
+          <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="class" value="4" />
+          <entry key="java" value="836" />
           <entry key="txt" value="15" />
-          <entry key="xml" value="12" />
-          <entry key="yml" value="601" />
+          <entry key="xml" value="48" />
+          <entry key="yml" value="733" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="836" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="XML" value="12" />
-          <entry key="YAML" value="601" />
+          <entry key="XML" value="48" />
+          <entry key="YAML" value="733" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imovie-server/src/main/java/com/imovie/cloud/ImovieServerApplication.java">
+        <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="145">
+              <caret line="385" column="55" selection-start-line="385" selection-start-column="55" selection-end-line="385" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imovie-user/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/consumer-movie/src/test/java/com/imovie/cloud/ConsumerMovieApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imovie-server-ha/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imovie-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imovie-server-ha/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer-movie/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer-movie/src/main/java/com/imovie/cloud/ConsumerMovieApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imovie-user/src/main/java/com/imovie/cloud/ImovieUserApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/soft/maven/repository/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.6.RELEASE/spring-cloud-netflix-eureka-client-1.4.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="84" column="26" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="26" />
+            <state relative-caret-position="420">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="e#14092#14093#0" expanded="true" />
-                <element signature="e#14152#14153#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consumer-movie/src/main/java/com/imovie/cloud/controller/MovieController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/soft/java/jdk1.8/src.zip!/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/http/HttpHeaders.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <element signature="e#5266#5267#0" expanded="true" />
+                <element signature="e#5342#5343#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/soft/maven/repository/repository/org/springframework/boot/spring-boot/1.5.19.RELEASE/spring-boot-1.5.19.RELEASE.jar!/org/springframework/boot/web/client/RestTemplateBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="159" column="190" selection-start-line="159" selection-start-column="190" selection-end-line="159" selection-end-column="190" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/http/client/support/BasicAuthorizationInterceptor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="29" column="66" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imovie-server-authenticating/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-movie/src/test/java/com/imovie/cloud/eureka-rest-api-test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Jaxb2RootElementHttpMessageConverter</find>
+      <find>Authorization</find>
+      <find>AUTHORIZATION</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -162,11 +191,15 @@
         <option value="$PROJECT_DIR$/imovie-server/pom.xml" />
         <option value="$PROJECT_DIR$/imovie-server/src/main/java/com/imovie/cloud/ImovieServerApplication.java" />
         <option value="$PROJECT_DIR$/imovie-user/src/main/java/com/imovie/cloud/ImovieUserApplication.java" />
+        <option value="$PROJECT_DIR$/imovie-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/imovie-server-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/imovie-server-ha/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/imovie-server-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/imovie-server-authenticating/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer-movie/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/imovie-user/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/imovie-server-ha/pom.xml" />
-        <option value="$PROJECT_DIR$/imovie-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/imovie-server-ha/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-movie/src/test/java/com/imovie/cloud/ConsumerMovieApplicationTests.java" />
+        <option value="$PROJECT_DIR$/consumer-movie/src/main/java/com/imovie/cloud/controller/MovieController.java" />
       </list>
     </option>
   </component>
@@ -285,8 +318,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,51 +328,25 @@
             <path>
               <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server-ha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server-ha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server-ha" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server-ha" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -349,7 +354,7 @@
             <path>
               <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server-ha" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -358,7 +363,7 @@
             <path>
               <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server-ha" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -368,7 +373,7 @@
             <path>
               <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server-ha" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -379,7 +384,140 @@
             <path>
               <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="imovie" type="462c0819:PsiDirectoryNode" />
-              <item name="imovie-server-ha" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-movie" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-server-authenticating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-server-authenticating" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-server-authenticating" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-server-authenticating" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imovie" type="462c0819:PsiDirectoryNode" />
+              <item name="imovie-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -388,6 +526,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,8 +539,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551088896904" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movie/spring-cloud-docker-microservice-book-code-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551173494118" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../myCode/test/blockchain-explorer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -409,7 +549,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\work02\imovie\consumer-movie\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\work02\imovie\consumer-movie\target\test-classes\com\imovie\cloud" />
+      <recent name="C:\work\work02\imovie\consumer-movie\src\test\java\com\imovie\cloud" />
       <recent name="C:\work\work02\imovie" />
       <recent name="C:\work\work02\imovie\imovie-server" />
     </key>
@@ -426,9 +571,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ImovieServerApplication-peer2">
+  <component name="RunManager" selected="Application.MovieController">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieApplicationTests (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imovie.cloud.ConsumerMovieApplicationTests" />
+      <module name="consumer-movie" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imovie.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieApplicationTests (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imovie.cloud.ConsumerMovieApplicationTests" />
+      <module name="consumer-movie" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imovie.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieApplicationTests (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imovie.cloud.ConsumerMovieApplicationTests" />
+      <module name="consumer-movie" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imovie.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imovie.cloud.ConsumerMovieApplicationTests" />
+      <module name="consumer-movie" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imovie.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imovie.cloud.controller.MovieController" />
+      <module name="consumer-movie" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imovie.cloud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -448,21 +663,6 @@
     <configuration name="ConsumerMovieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-movie" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.imovie.cloud.ConsumerMovieApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImovieServerApplication-peer1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true">
-      <module name="imovie-server-ha" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imovie.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imovie.cloud.ImovieServerApplication" />
-      <option name="ACTIVE_PROFILES" value="peer1" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -513,11 +713,19 @@
       <item itemvalue="Spring Boot.ConsumerMovieApplication" />
       <item itemvalue="Spring Boot.ImovieUserApplication" />
       <item itemvalue="Spring Boot.ImovieServerApplication" />
-      <item itemvalue="Spring Boot.ImovieServerApplication-peer1" />
+      <item itemvalue="Application.ConsumerMovieApplicationTests" />
+      <item itemvalue="Application.ConsumerMovieApplicationTests (1)" />
+      <item itemvalue="Application.ConsumerMovieApplicationTests (2)" />
+      <item itemvalue="Application.ConsumerMovieApplicationTests (3)" />
+      <item itemvalue="Application.MovieController" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ImovieServerApplication-peer1" />
+        <item itemvalue="Application.MovieController" />
+        <item itemvalue="Application.ConsumerMovieApplicationTests (2)" />
+        <item itemvalue="Application.ConsumerMovieApplicationTests (3)" />
+        <item itemvalue="Application.ConsumerMovieApplicationTests (1)" />
+        <item itemvalue="Application.ConsumerMovieApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -531,56 +739,103 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551071338027</updated>
-      <workItem from="1551071341257" duration="6723000" />
+      <workItem from="1551071341257" duration="7517000" />
+      <workItem from="1551150361772" duration="14446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6723000" />
+    <option name="totallyTimeSpent" value="21963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25067025" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38269794" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3240469" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20674486" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32991204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10455764" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22873901" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" weight="0.3297587" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32991204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/web/client/RestTemplate.class</url>
+          <line>385</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/imovie-user/pom.xml">
@@ -631,14 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.6.RELEASE/spring-cloud-netflix-eureka-client-1.4.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
+    <entry file="file://$PROJECT_DIR$/imovie-server-ha/src/main/java/com/imovie/cloud/ImovieServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="26" />
-          <folding>
-            <element signature="e#14092#14093#0" expanded="true" />
-            <element signature="e#14152#14153#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -649,10 +900,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.6.RELEASE/spring-cloud-netflix-eureka-client-1.4.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imovie-server-ha/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imovie-server-ha/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imovie-server-ha/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imovie-server-authenticating/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/com/netflix/eureka/eureka-client/1.7.2/eureka-client-1.7.2.jar!/com/netflix/discovery/DiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="384" column="30" selection-start-line="384" selection-start-column="30" selection-end-line="384" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/cloud/spring-cloud-commons/1.3.5.RELEASE/spring-cloud-commons-1.3.5.RELEASE.jar!/org/springframework/cloud/client/ServiceInstance.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.6.RELEASE/spring-cloud-netflix-eureka-client-1.4.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imovie-server-authenticating/src/main/java/com/imovie/cloud/ImovieServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imovie-user/src/main/java/com/imovie/cloud/ImovieUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="171">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -665,43 +975,178 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer-movie/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imovie-server-ha/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imovie-server-ha/src/main/java/com/imovie/cloud/ImovieServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="133">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imovie-user/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="73">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-core/4.3.22.RELEASE/spring-core-4.3.22.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/java/jdk1.8/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="209" column="23" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/java/jdk1.8/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/http/HttpEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/java/jdk1.8/src.zip!/com/sun/org/apache/xerces/internal/parsers/DOMParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/web/client/DefaultResponseErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imovie-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="114">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imovie-server-ha/src/main/resources/application.yml">
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/web/client/RestOperations.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/http/MediaType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-movie/src/main/resources/eureka-rest-api-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="385" column="55" selection-start-line="385" selection-start-column="55" selection-end-line="385" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-movie/target/test-classes/com/imovie/cloud/ConsumerMovieApplicationTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-movie/src/test/java/com/imovie/cloud/eureka-rest-api-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imovie-server-authenticating/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/boot/spring-boot/1.5.19.RELEASE/spring-boot-1.5.19.RELEASE.jar!/org/springframework/boot/web/client/RestTemplateBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="159" column="190" selection-start-line="159" selection-start-column="190" selection-end-line="159" selection-end-column="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/http/client/support/BasicAuthorizationInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/maven/repository/repository/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/http/HttpHeaders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#5266#5267#0" expanded="true" />
+            <element signature="e#5342#5343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/soft/java/jdk1.8/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-movie/src/test/java/com/imovie/cloud/ConsumerMovieApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-movie/src/main/java/com/imovie/cloud/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

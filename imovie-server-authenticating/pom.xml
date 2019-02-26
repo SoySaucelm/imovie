@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.imovie.cloud</groupId>
-    <artifactId>imovie-server-ha</artifactId>
+    <artifactId>imovie-server-authenticating</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>imovie-server-ha</name>
+    <name>imovie-server-authenticating</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

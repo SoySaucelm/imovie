@@ -21,10 +21,12 @@ eureka:
   client:
     registerWithEureka: true
     service-url:
-      defaultZone: http://localhost:8671/eureka/
+      defaultZone: http://root:root@peer1:8671/eureka/
   instance:
     hostname: localhost
     prefer-ip-address: true # 表示将自己的Ip注册到eureka server
+    metadata-map:
+      my-metadata: springcloud-movie-user
 spring:
   http:
     multipart:

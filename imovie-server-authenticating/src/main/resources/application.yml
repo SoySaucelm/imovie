@@ -1,0 +1,14 @@
+server:
+  port: 8671
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8671/eureka/
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root

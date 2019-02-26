@@ -10,6 +10,7 @@
         <module name="consumer-movie" />
         <module name="imovie-server" />
         <module name="imovie-server (1)" />
+        <module name="imovie-server-authenticating" />
         <module name="imovie-server-ha" />
         <module name="imovie-user" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="consumer-movie" target="1.8" />
       <module name="imovie-server" target="1.8" />
       <module name="imovie-server (1)" target="1.8" />
+      <module name="imovie-server-authenticating" target="1.8" />
       <module name="imovie-server-ha" target="1.8" />
       <module name="imovie-user" target="1.8" />
     </bytecodeTargetLevel>
