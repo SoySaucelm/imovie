@@ -1,0 +1,32 @@
+server:
+  port: 8012
+# Configure this Discovery Server
+eureka:
+  client:
+    registerWithEureka: true
+    service-url:
+      defaultZone: http://root:root@peer1:8671/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+spring:
+  application:
+    name: consumer-movie
+imovie-user:
+  ribbon:
+    listOfServers: peer1:8080,peer2:8081
+---
+spring:
+  profiles: multi
+eureka:
+  client:
+    registerWithEureka: true
+    service-url:
+      defaultZone: http://root:root@peer1:8671/eureka/,http://root:root@peer2:8672/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true

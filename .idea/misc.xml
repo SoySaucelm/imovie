@@ -11,6 +11,10 @@
         <option value="$PROJECT_DIR$/imovie-server/pom.xml" />
         <option value="$PROJECT_DIR$/imovie-server-ha/pom.xml" />
         <option value="$PROJECT_DIR$/imovie-server-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-movie-ribbon-customizing/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-movie-ribbon-customizing-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-movie-without-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-movie-feign/pom.xml" />
       </list>
     </option>
   </component>

@@ -41,3 +41,13 @@ info:
     java:
       source: @java.version@
       target: @java.version@
+---
+spring:
+  profiles: user1
+server:
+  port: 8080
+---
+spring:
+  profiles: user2
+server:
+  port: 8081

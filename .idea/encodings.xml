@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/consumer-movie" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-movie-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-movie-ribbon-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-movie-ribbon-customizing-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-movie-without-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/imovie-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/imovie-server-authenticating" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/imovie-server-ha" charset="UTF-8" />
