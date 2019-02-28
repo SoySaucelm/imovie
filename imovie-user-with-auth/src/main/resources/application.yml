@@ -1,0 +1,53 @@
+#spring:
+#    rabbitmq:
+#        host: 192.168.1.202
+#        port: 5672
+#        username: test
+#        password: test
+# Single file max size
+#multipart.maxFileSize: 100Mb
+# All files max size
+#multipart.maxRequestSize: 1000Mb
+#spring.http.multipart.local:
+# pagehelper
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+
+# Configure this Discovery Server
+eureka:
+  client:
+    registerWithEureka: true
+    service-url:
+      defaultZone: http://root:root@peer1:8671/eureka/
+  instance:
+    hostname: localhost
+    prefer-ip-address: true # 表示将自己的Ip注册到eureka server
+    metadata-map:
+      my-metadata: springcloud-movie-user
+spring:
+  http:
+    multipart:
+      max-file-size: 100Mb
+      max-request-size: 1000Mb
+  application:
+    name: imovie-user  # 用于指定注册到Eureka server上的应用名称
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+---
+spring:
+  profiles: user1
+server:
+  port: 8080
+---
+spring:
+  profiles: user2
+server:
+  port: 8081

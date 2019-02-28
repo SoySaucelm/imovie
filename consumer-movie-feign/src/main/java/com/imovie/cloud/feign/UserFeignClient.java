@@ -1,4 +1,4 @@
-package com.imovie.cloud.service;
+package com.imovie.cloud.feign;
 
 import com.imovie.cloud.entity.TUser;
 import org.springframework.cloud.netflix.feign.FeignClient;
