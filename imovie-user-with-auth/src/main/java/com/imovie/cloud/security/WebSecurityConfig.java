@@ -2,9 +2,11 @@ package com.imovie.cloud.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -22,24 +24,37 @@ import java.util.List;
  */
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    static class Food{}
-    static class Fruit extends Food{}
-    static class Apple extends Fruit{}
-    static class RedApple extends Apple{}
+    static class Food {
+    }
 
-    public List<? super Fruit> getObj(){
+    static class Fruit extends Food {
+    }
+
+    static class Apple extends Fruit {
+    }
+
+    static class RedApple extends Apple {
+    }
+
+    public static List<? extends Fruit> getObj(List<? super RedApple> list) {
         Apple apple = new Apple();
         ArrayList<Apple> objects = new ArrayList<>();
         objects.add(apple);
         return objects;
     }
 
-    public static void main(String[] args){
-        Fruit a = new RedApple();
-
-        List<? extends Fruit> flist = new ArrayList<>();
+    public static void main(String[] args) {
+//        Apple a = new Apple();
+//        List<Apple> objects = new ArrayList<>();
+//        objects.add(a);
+//        getObj(objects);
+//
+//        List<? extends Fruit> flist = new ArrayList<>();
 //        flist.add(new Fruit());
     }
+
+    @Autowired
+    private CustomUserDetailService customUserDetailService;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -47,33 +62,42 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().anyRequest().authenticated().and().httpBasic();
     }
 
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(customUserDetailService).passwordEncoder(passwordEncoder());
+    }
+
+
     @Bean
-    public PasswordEncoder passwordEncoder(){
+    public PasswordEncoder passwordEncoder() {
         //明文编码器 不做任何操作的编码器
 //        return NoOpPasswordEncoder.getInstance();// 过时
         return PasswordEncoderFactories.createDelegatingPasswordEncoder();
     }
 
     @Component
-    class CustomUserDetailService implements UserDetailsService{
+    class CustomUserDetailService implements UserDetailsService {
         /**
          * 模拟两个账户
          * 1:账户是user 密码 password1 角色user-role
          * 2:账户是admin 密码password2 角色admin-role
+         *
          * @param username
          * @return
          * @throws UsernameNotFoundException
          */
         @Override
         public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-            if ("user".equals(username)){
-//                return new
+            if ("user".equals(username)) {
+                return new SecurityUser("user", "password1", "user-role");
+            } else if ("admin".equals(username)) {
+                return new SecurityUser("admin", "password2", "admin-role");
             }
             return null;
         }
     }
 
-    class SecurityUser implements UserDetails{
+    class SecurityUser implements UserDetails {
         private Long id;
         private String userName;
         private String passWord;
@@ -82,7 +106,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         public SecurityUser() {
         }
 
-        public SecurityUser(String userName, String passWord,String role) {
+        public SecurityUser(String userName, String passWord, String role) {
             this.userName = userName;
             this.passWord = passWord;
             this.role = role;
@@ -91,8 +115,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         @Override
         public Collection<? extends GrantedAuthority> getAuthorities() {
-//            Collection
-            return null;
+            Collection<GrantedAuthority> authorities = new ArrayList<>();
+            SimpleGrantedAuthority simpleGrantedAuthority = new SimpleGrantedAuthority(this.role);
+            authorities.add(simpleGrantedAuthority);
+            return authorities;
         }
 
         @Override
@@ -125,6 +151,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             return true;
         }
     }
-    @Autowired
-    private CustomUserDetailService customUserDetailService;
- }
+
+
+}
