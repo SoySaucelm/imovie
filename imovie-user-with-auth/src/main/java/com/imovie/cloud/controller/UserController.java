@@ -30,8 +30,6 @@ public class UserController {
     public TUser queryUserById(@PathVariable Long id) {
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         log.info("principal:{}", principal);
-        Object principal2 = new SecurityContextImpl().getAuthentication().getPrincipal();
-        log.info("principal2:{}", principal2);
         if (principal instanceof UserDetails) {
             UserDetails user = (UserDetails) principal;
             Collection<? extends GrantedAuthority> authorities = user.getAuthorities();

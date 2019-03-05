@@ -1,9 +1,13 @@
 package com.imovie.cloud.security;
 
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -14,14 +18,15 @@ import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author SoySauce
  * @date 2019/2/28
  */
+@Configuration
+@EnableWebSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     static class Food {
@@ -44,6 +49,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     public static void main(String[] args) {
+        int 大宝 = 9, 琦酱 = 3;
+        Map<Object, Object> 琦酱he大宝 = new HashMap();
+        琦酱he大宝.put(琦酱, "琦酱");
+        琦酱he大宝.put(大宝, "大宝");
+        System.out.println("大宝是9 琦酱是3 除了琦酱还是:"+琦酱he大宝.get(大宝 / 琦酱));
+
+
 //        Apple a = new Apple();
 //        List<Apple> objects = new ArrayList<>();
 //        objects.add(a);
@@ -97,6 +109,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         }
     }
 
+    @Data
     class SecurityUser implements UserDetails {
         private Long id;
         private String userName;
